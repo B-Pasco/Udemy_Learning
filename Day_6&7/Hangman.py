@@ -38,7 +38,7 @@ while not game_over:
     if Guess not in chosen_word:
         lives -= 1
         if lives == 0:
-            print("You lose")
+            print("You lose!...")
 
 
     if "_" not in display:
