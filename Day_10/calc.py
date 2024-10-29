@@ -43,7 +43,7 @@ def calculator():
             should_accumulate = False
             print("\n" * 10)
 
-            calculator()
+            calculator() # Recursion for restarting calculation
 
 # Calling the function to start functioning
 calculator()
