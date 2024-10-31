@@ -16,6 +16,7 @@ def calculate_score(cards):
     A score of 0 represents Blackjack (an Ace and a 10-card).
     If there’s an Ace (11) and the score goes over 21, it counts as 1 instead.
     """
+    
     # Check for a blackjack (a hand with only two cards: an Ace and a 10-value card)
     if sum(cards) == 21 and len(cards) == 2:
         return 0  # 0 is used as a marker for Blackjack.
