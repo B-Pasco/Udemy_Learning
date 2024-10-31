@@ -53,7 +53,7 @@ def play_game():
     Initializes hands, checks for Blackjack, and allows the user to draw more cards.
     """
 
-    # 
+    # welcoming message to the player!!!...
     print("""
 ================================================================
         WELCOME TO BLACKJACK GAME!!!...LET'S PLAY!!!
