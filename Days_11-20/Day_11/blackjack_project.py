@@ -52,6 +52,8 @@ def play_game():
     Main function to control the flow of the game.
     Initializes hands, checks for Blackjack, and allows the user to draw more cards.
     """
+
+    # 
     print("""
 ================================================================
         WELCOME TO BLACKJACK GAME!!!...LET'S PLAY!!!
@@ -71,7 +73,7 @@ def play_game():
     while not is_game_over:
         user_score = calculate_score(user_cards)
         computer_score = calculate_score(computer_cards)
-        
+
         # Displaying the given card for both players.
         print(f"Your cards: {user_cards}, current score: {user_score}")
         print(f"Computer's first card: {computer_cards[0]}")
